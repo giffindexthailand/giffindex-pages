@@ -1,0 +1,356 @@
+@charset "utf-8";
+@import url("../webfonts/supermarket/stylesheet.css");
+@import url("../webfonts/thsarabunpsk/stylesheet.css");
+@import url("../webfonts/thaisans/css/stylesheet.css");
+@import url("../webfonts/Sriracha_ttf/stylesheet.css");
+/* CSS Document */
+
+.textshadow{
+    text-shadow: 0.05em 0.05em #000;
+}
+.textshadoww{
+    text-shadow: 0.05em 0.05em #fff;
+}
+.white{
+	color: #FFF;
+	text-decoration: none;
+}
+.footer a{
+	color: #ccc;
+	text-decoration: none;
+}
+.footer a:hover{
+	color: #FFF;
+	text-decoration: none;
+}
+.fontsidebar{
+	color: #ddd;
+	text-decoration: none;
+	font-weight: 600;
+}
+.fontsidebar:hover{
+	color: #FFF;
+	text-decoration: none;
+}
+.black{
+	color: #000;
+	text-decoration: none;
+}
+.black:hover{
+	color: #000;
+	text-decoration: none;
+}
+.gray{
+	color: #333;
+	text-decoration: none;
+}
+.graylink{
+	color: #ccc;
+	text-decoration: none;
+}
+.graylink:hover{
+	text-decoration: underline;
+}
+.greenlink{
+	color: #333;
+	text-decoration: none;
+}
+.greenlink:hover{
+	color: #7d9645;
+	text-decoration: none;
+}
+.yellow{
+	color: #ffc206;
+	text-decoration: none;
+}
+.orange{
+    color: #ff9806;
+	text-decoration: none;
+}
+.pink{
+    color:#f766bb;
+	text-decoration: none;
+}
+.pupple{
+	color:#6c17a3;
+	text-decoration: none;
+}
+.red{
+    color:#e60020;
+	text-decoration: none;
+}
+.redlink{
+	color:#fff;
+	text-decoration: none;
+}
+.redlink:hover{
+	color:#aa001c;
+	text-decoration: none;
+}
+.font12{
+	font-size: 12px;
+	text-decoration: none;
+}
+.font14{
+	font-size: 14px;
+	text-decoration: none;
+}
+.font16{
+	font-size: 16px;
+	text-decoration: none;
+}
+.font18{
+	font-size: 18px;
+	text-decoration: none;
+}
+.font24{
+	font-size: 24px;
+	text-decoration: none;
+}
+.font30{
+	font-size: 30px;
+	text-decoration: none;
+}
+.sriracha14{
+	font-family: "Sriracha ttf";
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: 100;
+	line-height: 170%;
+}
+.sriracha16{
+	font-family: "Sriracha ttf";
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: 100;
+	line-height: 170%;
+}
+.sriracha18{
+	font-family: "Sriracha ttf";
+	font-size: 18px;
+	text-decoration: none;
+}
+.psk{
+	font-family: 'THSarabunPSK';
+	font-size: 24px;
+	text-decoration: none;
+	line-height: 100%;
+	font-weight: 600;
+}
+.psk20{
+	font-family: 'THSarabunPSK';
+	font-size: 20px;
+	text-decoration: none;
+	line-height: 100%;
+	font-weight: 600;
+}
+.thaisans16{
+	font-family:'thaisans_neue_lightregular';
+	font-size:16px;
+	text-decoration: none;
+}
+.thaisans18{
+	font-family: 'thaisans_neue_lightregular';
+	font-size: 18px;
+	text-decoration: none;
+}
+.thaisans20{
+	font-family: 'thaisans_neue_lightregular';
+	font-size: 20px;
+	text-decoration: none;
+}
+.thaisans24{
+	font-family: 'thaisans_neueregular';
+	font-size: 24px;
+	text-decoration: none;
+	line-height: 120%;
+}
+.thaisans30{
+	font-family: 'thaisans_neueregular';
+	font-size: 30px;
+	text-decoration: none;
+}
+.thaisans36{
+	font-family: 'thaisans_neueregular';
+	font-size: 36px;
+	text-decoration: none;
+	line-height: 120%;
+}
+.thaisans48{
+	font-family: 'thaisans_neueregular';
+	font-size: 48px;
+	text-decoration: none;
+	line-height: 120%;
+}
+.thaisans60{
+	font-family: 'thaisans_neueregular';
+	font-size: 60px;
+	text-decoration: none;
+}
+.tahoma16{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:16px;
+	text-decoration: none;
+}
+.super16{
+	font-family: supermarket;
+	font-size: 16px;
+	text-decoration: none;
+}
+.super18{
+	font-family: supermarket;
+	font-size: 18px;
+	text-decoration: none;
+}
+.super20{
+	font-family: supermarket;
+	font-size: 20px;
+	text-decoration: none;
+}
+.super24{
+	font-family: supermarket;
+	font-size: 24px;
+	text-decoration: none;
+}
+.super36{
+	font-family: supermarket;
+	font-size: 36px;
+	text-decoration: none;
+}
+@media screen and (max-width: 767px)
+{
+.font16{
+	font-size: 14px;
+}
+.font18{
+	font-size: 16px;
+}
+.font24{
+	font-size: 20px;
+}
+.font30{
+	font-size: 24px;
+}
+.thaisans24{
+	font-size: 20px;
+}
+.thaisans48{
+	font-size: 36px;
+}
+.thaisans60{
+	font-size: 48px;
+}
+.super16{
+	font-size: 16px;
+}
+.super18{
+	font-size: 16px;
+}
+.super20{
+	font-size: 16px;
+}
+.super24{
+	font-size: 20px;
+}
+.super36{
+	font-size: 28px;
+	line-height:180%;
+}
+}
+@media screen and (min-width: 768px)
+{
+.font16{
+	font-size: 16px;
+}
+.font18{
+	font-size: 18px;
+}
+.font24{
+	font-size: 22px;
+}
+.font30{
+	font-size: 26px;
+}
+.thaisans24{
+	font-size: 22px;
+}
+.thaisans48{
+	font-size: 40px;
+}
+.thaisans60{
+	font-size: 55px;
+}
+.super18{
+	font-size: 18px;
+}
+.super20{
+	font-size: 18px;
+	}
+.super36{
+	font-size: 34px;
+	line-height:200%;
+}
+}
+@media screen and (min-width: 1024px)
+{
+.font16{
+	font-size: 16px;
+}
+.font18{
+	font-size: 18px;
+}
+.font24{
+	font-size: 24px;
+}
+.font30{
+	font-size: 30px;
+}
+.thaisans24{
+	font-size: 24px;
+}
+.thaisans48{
+	font-size: 48px;
+}
+.thaisans60{
+	font-size: 60px;
+}
+.super18{
+	font-size: 18px;
+}
+.super20{
+	font-size: 20px;
+}
+.super36{
+	font-size: 34px;
+	line-height:200%;
+}
+}
+@media screen and (min-width: 1100px)
+{
+.tahoma16{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:16px;
+	text-decoration: none;
+}
+.super16{
+	font-family: supermarket;
+	font-size: 16px;
+	text-decoration: none;
+}
+.super20{
+	font-family: supermarket;
+	font-size: 20px;
+	text-decoration: none;
+}
+.super24{
+	font-family: supermarket;
+	font-size: 24px;
+	text-decoration: none;
+}
+.super36{
+	font-family: supermarket;
+	font-size: 36px;
+	text-decoration: none;
+	line-height:200%;
+}
+}

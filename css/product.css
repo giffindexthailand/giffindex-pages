@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document */
+
+.discount {
+    position: absolute;
+    background-color: #275c9c;
+    padding: 5px 10px;
+    font-size: 12px;
+    color: #FFF;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+}
+.croptextpro{
+    white-space: nowrap; 
+    width: 100%; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    display: inline-block;
+}
+.picprobig{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    height: 500px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.blockprobig{
+    position: relative;
+    vertical-align: middle;
+    border: thin solid #333;
+    display:inline-block;
+    margin-bottom:5px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 600;
+    
+    width:100%;
+    text-decoration: none;
+    background-color:#121212;
+    transition: all 0.3s;
+}
+.blockprobig:hover{
+    -ms-transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+}
+.blockdetail {
+    position: relative;
+    display:inline-block;
+    vertical-align: middle;
+    border: 1px solid #bbbbbf;
+    -moz-box-shadow: 0px 0px 10px #c0c0c0;  
+    -webkit-box-shadow: 0px 0px 10px #c0c0c0;
+    box-shadow: 0px 0px 10px #c0c0c0;
+    padding: 10px;
+    
+    border-radius:5px;
+    background-color:#FFF;
+    width:100%;
+    transition: all 0.3s;
+}
+.blockdetail:hover {
+    -moz-box-shadow: 0px 0px 20px #999; 
+    -webkit-box-shadow: 0px 0px 20px #999;
+    box-shadow: 0px 0px 20px #999;
+    -ms-transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+}
+.thumbnailprod {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+.thumbnailprod img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.thumbnailprod img.portraitprod {
+  width: 100%;
+  height: auto;
+}
+.detail img{
+    max-width:100%;
+}
+
+@media screen and (max-width: 767px)
+{
+.blockpro{
+    font-size: 20px;
+}
+.picprobig{
+    height: 400px;
+}
+.thumbnailprod {
+  height: 450px;
+}
+}
+@media screen and (max-width: 600px)
+{
+.picprobig{
+    height: 370px;
+}
+.thumbnailprod {
+  height: 400px;
+}
+}
+@media screen and (max-width: 550px)
+{
+.picprobig{
+    height: 350px;
+}
+.thumbnailprod {
+  height: 350px;
+}
+}
+@media screen and (max-width: 500px)
+{
+.picprobig{
+    height: 300px;
+}
+}
+@media screen and (max-width: 420px)
+{
+.picprobig{
+    height: 250px;
+}
+.thumbnailprod {
+  height: 300px;
+}
+}
+@media screen and (max-width: 380px)
+{
+.blockpro{
+    font-size: 18px;
+}
+.picprobig{
+    height: 250px;
+}
+.thumbnailprod {
+  height: 250px;
+}
+}
+@media screen and (max-width: 360px)
+{
+.blockpro{
+    font-size: 18px;
+}
+.picprobig{
+    height: 230px;
+}
+.thumbnailprod {
+  height: 230px;
+}
+}
+
+
+@media screen and (min-width: 768px)
+{
+.blockpro{
+    font-size: 20px;
+}
+.picprobig{
+    height: 350px;
+}
+.thumbnailprod {
+  height: 300px;
+}
+}
+@media screen and (min-width: 992px)
+{
+.blockpro{
+    font-size: 24px;
+}
+.picprobig{
+    height: 450px;
+}
+.thumbnailprod {
+  height: 350px;
+}
+}
+@media screen and (min-width: 1200px)
+{
+.blockpro{
+    font-size: 24px;
+}
+.picprobig{
+    height: 500px;
+}
+.thumbnailprod {
+  height: 400px;
+}
+}
