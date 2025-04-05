@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Sriracha ttf';
+	src: url('Sriracha.ttf.eot');
+	src: url('Sriracha.ttf.eot?#iefix') format('embedded-opentype'),
+		url('Sriracha.ttf.woff') format('woff'),
+		url('Sriracha.ttf.svg') format('svg');
+}
